@@ -9,5 +9,10 @@ public class HomeController {
 	public String show() {
 	return "HomePage";
 	}
+	
+	@RequestMapping("/showdata")
+	public String showData() {
+	return "HomePage";
+	}
 
 }
